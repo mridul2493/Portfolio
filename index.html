@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mridul Yadav</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <div class="grain"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <nav id="navbar">
+    <div class="logo">Mridul</div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <!-- <p class="eyebrow">Portfolio · 2025</p> -->
+      <h1 class="hero-title">Hi, I'm <span class="accent">Mridul Yadav</span></h1>
+      <p class="lead">I design and build thoughtful digital experiences across Web, Machine Learning, and computer vision.</p>
+      <div class="typed-wrap"><span id="typed"></span></div>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Book a call</a>
+      </div>
+      <div class="metrics">
+        <div class="metric"><strong>25+</strong><span>Projects</span></div>
+        <div class="metric"><strong>1</strong><span>Internships</span></div>
+        <div class="metric"><strong>95%</strong><span>Avg. model accuracy</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <p class="eyebrow">About</p>
+      <h2>I’m a Computer Science student who builds intelligent, user-centric systems at the intersection of machine learning, computer vision, and modern web development</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>B.Tech CSE @ VIT, turning complex ideas into elegant digital experiences using machine learning, computer vision, and full-stack development</p>
+        <div class="chips"><span>ML</span><span>Computer Vision</span><span>Full Stack</span></div>
+      </div>
+      <div class="fact-grid">
+        <div class="fact"><strong>2022–Present</strong> <span>VIT B.Tech CSE</span></div>
+        <div class="fact"><strong>BEL</strong> <span>Machine Learning Intern</span></div>
+        <!-- <div class="fact"><strong>Remote-first</strong><span>India</span></div> -->
+      </div>
+    </div>
+  </section>
+
+    <section id="education" class="section" data-aos="fade-up">
+      <div class="section-header">
+        <p class="eyebrow">Education</p>
+        <h2>Learning with intent</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div>
+            <p class="label">2022 – Present · VIT</p>
+            <h3>B.Tech Computer Science and Engineering</h3>
+            <p>Exploring AI/ML, Computer Vision, and Web Development, while actively building practical projects alongside coursework</p>
+            <ul>
+              <li>Relevant Coursework: Computer Networks, OS, Data Structures, Algorithms, Artificial Intelligence and Web Programming.</li>
+              <li>Clubs: Cycling Club, Book Club</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div>
+            <p class="label">2020 – 2021 . Ryan International School</p>
+            <h3>Senior Secondary</h3>
+            <p>Physics, Chemistry, Mathematics</p>
+            <ul>
+              <li>Board: Central Board of Secondary Education</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="experience" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <p class="eyebrow">Experience</p>
+      <h2>Hands-on impact</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div>
+          <p class="label">Jun–Jul 2025 · Bharat Electronics Limited</p>
+          <h3>Machine Learning Intern</h3>
+          <p>Contributed to a confidential defence-sector ML project, performing pattern recognition, anomaly detection, and
+classification on real-world sensor data while ensuring strict confidentiality</p>
+          <ul>
+            <li>Designed and optimized ML models using Python (NumPy, Pandas, Scikit-learn, TensorFlow, Keras)</li>
+            <li>Conducted statistical analysis and hypothesis testing in R</li>
+            <li>Collaborated with a cross-functional team, delivering end-to-end ML workflows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work</h2>
+    </div>
+    <div class="card-grid">
+      <article class="card project">
+        <div class="card-head">
+          <h3>Sign Language Translator</h3>
+        </div>
+        <p>Real-time sign to text and speech with 97.98% accuracy, optimized for webcam inference.</p>
+        <div class="chips"><span>TensorFlow</span><span>OpenCV</span><span>Flask</span></div>
+      </article>
+      <article class="card project">
+        <div class="card-head">
+          <h3>Phishing Email Detector</h3>
+        </div>
+        <p>Browser extension with Flask backend scoring emails in real time; lifted catch-rate to 92%.</p>
+        <div class="chips"><span>GCP APIs</span><span>Python</span><span>VirusTotal API</span></div>
+      </article>
+      <article class="card project">
+        <div class="card-head">
+          <h3>Cloud Notebook</h3>
+        </div>
+        <p>Study Material Sharing platform with real time collaboration</p>
+        <div class="chips"><span>React</span><span>Node</span><span>Terraform</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <h2 class="skills-title">Skills.</h2>
+    </div>
+    
+    <!-- Languages -->
+    <div class="skills-category">
+      <p class="category-tag">&lt;languages&gt;</p>
+      <div class="hexagon-grid">
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="0"><div class="hexagon"><img src="c++.png" alt="C++" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="50"><div class="hexagon"><img src="python.png" alt="Python" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="100"><div class="hexagon"><img src="java 5.png" alt="Java" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="150"><div class="hexagon"><img src="js.png" alt="JavaScript" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="200"><div class="hexagon"><img src="c2.webp" alt="C" class="skill-logo"></div></div>
+      </div>
+      <p class="category-tag end">&lt;/languages&gt;</p>
+    </div>
+
+    <!-- Web Dev Tools -->
+    <div class="skills-category">
+      <p class="category-tag">&lt;webdevtools&gt;</p>
+      <div class="hexagon-grid">
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="0"><div class="hexagon"><img src="nodejs6.png" alt="NodeJS" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="50"><div class="hexagon"><img src="git.png" alt="Git" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="100"><div class="hexagon"><img src="bootstrap.png" alt="Bootstrap" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="150"><div class="hexagon"><img src="react3.png" alt="ReactJS" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="200"><div class="hexagon"><img src="html.png" alt="HTML" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="250"><div class="hexagon"><img src="css.png" alt="CSS" class="skill-logo"></div></div>
+      </div>
+      <p class="category-tag end">&lt;/webdevtools&gt;</p>
+    </div>
+
+    <!-- Frameworks -->
+    <div class="skills-category">
+      <p class="category-tag">&lt;frameworks&gt;</p>
+      <div class="hexagon-grid">
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="0"><div class="hexagon"><img src="django.png" alt="Django" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="50"><div class="hexagon"><img src="flask.webp" alt="Flask" class="skill-logo"></div></div>
+      </div>
+      <p class="category-tag end">&lt;/frameworks&gt;</p>
+    </div>
+
+    <!-- Cloud / Databases -->
+    <div class="skills-category">
+      <p class="category-tag">&lt;cloud/databases&gt;</p>
+      <div class="hexagon-grid">
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="0"><div class="hexagon"><img src="firebase2.png" alt="Firebase" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="50"><div class="hexagon"><img src="mysql2.png" alt="MySQL" class="skill-logo"></div></div>
+        <div class="hex-item" data-aos="zoom-in" data-aos-delay="100"><div class="hexagon"><img src="aws2.png" alt="AWS" class="skill-logo"></div></div>
+      </div>
+      <p class="category-tag end">&lt;/cloud/databases&gt;</p>
+    </div>
+  </section>
+
+  <section id="certifications" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <p class="eyebrow">Certifications</p>
+      <h2>Selected Certifications</h2>
+    </div>
+    <div class="card-grid">
+      <a href="https://drive.google.com/file/d/1JZ5fUVCPCPvzgcUviv_S8ROLo3cpfK-M/view?usp=sharing">
+        <article class="card">
+        <div class="card-head">
+          <h3>Microsoft Azure AI Fundamentals</h3>
+        </div>
+        <p>Validated understanding of responsible AI, ML workflows, and deployment patterns on Azure.</p>
+      </article>
+      </a>
+      <a href="https://www.udemy.com/certificate/UC-28a1ebbd-8288-46a8-80a2-b1fbc72ec709/">
+      <article class="card">
+        <div class="card-head">
+          <h3>Udemy Full Stack Web Dev</h3>
+        </div>
+        <p>Full stack web development with modern JS stacks, and cloud deployment practices.</p>
+      </article>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="section-header">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s build together</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="card glass">
+        <h3>Available for Internships, Full time and Part Time Employement</h3>
+        <p>Email: <a href="mailto:mridulyadav288@gmail.com">mridulyadav288@gmail.com</a></p>
+        <p>Phone: <a href="tel:+918955235865">+91 8955235865</a></p>
+        <div class="cta-row">
+          <a class="btn primary" href="mailto:mridulyadav288@gmail.com">Email</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/mridul-yadav-493433254" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 · Crafted by Mridul Yadav</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
